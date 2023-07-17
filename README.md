@@ -1,10 +1,10 @@
-<!--
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-</p>
+
+<img width="790" alt="Screen Shot 2023-07-05 at 12 01 33 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/333da671-52b4-4492-bc26-68c291308f12">
 
 <h1>osTicket - Ticket Lifecycle: Ticket Intake to Resolution</h1>
-In this example, we walk through the life cycle of a ticket from intake to resolution, from end-user to agent, within the open-source help desk ticketing system osTicket.<br />
+
+<p>In this example, we walk through the life cycle of a ticket from intake to resolution, from end-user to agent, within the open-source help desk ticketing system osTicket.</p>
 
 
 - Microsoft Azure Virtual Machine
@@ -43,7 +43,7 @@ In this example, we walk through the life cycle of a ticket from intake to resol
 
 <img width="1177" alt="Screen Shot 2023-07-13 at 9 42 45 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/03034416-d58e-44c2-9fc7-2c8d1bc91d17">
 
-**_Notice the Help Topics configured during the [Post-Install Configuration](https://github.com/yeahglo/post-install-config)  are listed here._**
+**_Notice the listed Help Topics configured during the [Post-Install Configuration](https://github.com/yeahglo/post-install-config)._**
 
 <br/>
 
@@ -108,13 +108,72 @@ In this example, we walk through the life cycle of a ticket from intake to resol
 
 <br />
 
-**Working the Issue** - Assigned tickets are worked by agents.
+<p>
+  
+**Working the Issue** - Assigned and unassigned tickets can be worked by agents.
 - Navigate to Tickets > My Tickets to see atorres' list of tickets
 - Open the ticket about mobile banking being down
+- With the ticket open, we can work on the ticket and make changes
+- Once the tickets are resolved, they automatically move to Tickets > Closed
+
+</p>
+
+<img width="1186" alt="Screen Shot 2023-07-13 at 10 21 30 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/56c53d36-ea67-49bd-a3dd-24c9f4925808">
+
+**_This is a business-impacting event so it has a priority level of emergency._**
+
+<img width="1175" alt="Screen Shot 2023-07-13 at 10 21 23 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/6edc6c02-621d-45a6-9781-b8884b59c86f">
+
+**_This is a business-impacting event so it has a priority level of emergency._**
 
 <img width="1168" alt="Screen Shot 2023-07-13 at 10 04 29 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/bcf3b671-6036-44d9-96e6-3e9ca076f649">
 
+**_The ticket status can remain open while still working the ticket and posting replies._**
 
-**Ticket Resolution and History** - xxx
-- xxx
--->
+<img width="1155" alt="Screen Shot 2023-07-13 at 10 04 56 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/c6ea4863-0aa0-42e0-a6da-f4d97d136f87">
+
+**_Changes within the ticket can be seen inside the ticket._**
+
+<img width="1163" alt="Screen Shot 2023-07-13 at 10 06 44 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/9e8e73df-76ba-4c3e-b80f-60ab92dd27ac">
+
+**_After working the ticket, we can set the status to resolved._**
+
+<br />
+
+<p>
+  
+**Ticket Resolution and History** - Even if tickets are closed, the history and resolution of the ticket can be seen.
+- Navigate to Tickets > Closed
+- The Ticket Thread shows the entire history of the ticket
+
+</p>
+
+<img width="1156" alt="Screen Shot 2023-07-13 at 10 08 34 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/eee0fad6-eab8-4517-9a44-152b0592a634">
+
+**_The Ticket Thread is inside the ticket and shows the entire history of the ticket, from statuses to post replies._**
+
+<p>
+
+<br />
+  
+**FAQs and Canned Responses** - osTicket provides additional ways to streamline communication internally and externally.
+- Navigate to Knowledgebase > FAQs > Add New Category
+- Create an FAQ
+- Navigate to Knowledgebase > Canned Responses > Add New Response
+- Create a Canned Response
+
+</p>
+
+<img width="1191" alt="Screen Shot 2023-07-13 at 10 25 27 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/e1b6de74-58ca-4340-a5c0-0bf1008d5a4b">
+
+<img width="1162" alt="Screen Shot 2023-07-13 at 10 24 42 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/c8d5509c-b3a3-4128-92ec-c23be58ee64e">
+
+<img width="1183" alt="Screen Shot 2023-07-13 at 10 25 45 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/e8bee232-79eb-48f5-9095-cc56a2d5121e">
+
+<img width="1145" alt="Screen Shot 2023-07-13 at 10 26 04 AM" src="https://github.com/yeahglo/ticket-lifecycle/assets/91516100/539b68b0-c5a1-4a2a-b063-9fee00b22d57">
+
+
+
+
+
+ 
