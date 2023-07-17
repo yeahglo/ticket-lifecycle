@@ -6,6 +6,7 @@
 
 <p>In this example, we walk through the life cycle of a ticket from intake to resolution, from end-user to agent, within the open-source help desk ticketing system osTicket.</p>
 
+<h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure Virtual Machine
 - Microsoft Remote Desktop
